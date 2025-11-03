@@ -58,5 +58,13 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     // added for nav bar
     implementation(libs.androidx.navigation.compose)
+    // added for friend cards
+    implementation(libs.coil.compose)
+    // added for nav bar
+    implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended)
+
+
 
 }

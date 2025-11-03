@@ -9,7 +9,10 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
 
-
+/*
+This viewModel class represents the business logic that the Auth screen needs to interact with
+relevant routes. It is not fully implemented for the demo.
+ */
 class AuthViewModel(
     private val repo: AuthRepository
 ) : ViewModel() {

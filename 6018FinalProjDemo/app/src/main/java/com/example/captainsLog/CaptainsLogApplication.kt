@@ -8,6 +8,9 @@ import com.example.captainsLog.data.session.SessionManager
 import com.example.captainsLog.data.api.implementations.*
 
 
+/*
+This class initializes the application
+ */
 class CaptainsLogApplication : Application() {
 
     // coroutine scope tied to application lifetime to run suspend functions in

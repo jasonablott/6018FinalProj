@@ -5,6 +5,10 @@ import com.example.captainsLog.data.session.SessionManager
 import com.example.captainsLog.data.model.User
 
 
+/*
+This class represents the repository that will be connected to the Authentication
+server for user authentication actions
+ */
 class AuthRepository(
     private val api: AuthApi,
     private val sessionManager: SessionManager

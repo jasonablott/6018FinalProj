@@ -4,6 +4,10 @@ import com.example.captainsLog.data.api.AuthApi
 import com.example.captainsLog.data.model.User
 
 
+/*
+This class is not needed for the demo. A real implementation would utilize API routes
+/auth/login and /auth/signup.
+ */
 class AuthApiImpl : AuthApi {
     override suspend fun login(email: String, password: String): User {
         // KTOR POST to /auth/login
