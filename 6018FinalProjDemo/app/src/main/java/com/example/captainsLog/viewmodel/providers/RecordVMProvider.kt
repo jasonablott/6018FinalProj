@@ -11,7 +11,7 @@ object RecordVMProvider {
     val Factory = viewModelFactory {
         initializer {
             val app = this[AndroidViewModelFactory.APPLICATION_KEY] as CaptainsLogApplication
-            RecordViewModel(app.recordingRepository)
+            RecordViewModel()
         }
     }
 }
